@@ -4,11 +4,10 @@
  find the ([Create tables.sql](https://github.com/mahmoudelhussain/session_3/blob/ba1dad2a92273983a5572cc13edb1fffcee975d7/Create%20tables.sql)).
  
 ## Identify the relationships between entities
- TABLE `product`  `category` 
-
-  table order_details to  order : [ many to one ]
-  table order to customer  : [ many to one ]
-  table order_details to  product :  : [ many to Many ]
+[^1]: TABLE product to category : [many to one] 
+[^2]: TABLE order_details to  order : [ many to one ]
+[^3]: TABLE order to customer  : [ many to one ]
+[^4]: TABLE order_details to  product :  : [ many to Many ]
 
 
 ## Draw the ERD diagram of this sample schema
