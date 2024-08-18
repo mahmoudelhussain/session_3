@@ -3,14 +3,14 @@
 ## Create the DB schema script with the following entities
  find the ([Create tables.sql](https://github.com/mahmoudelhussain/session_3/blob/ba1dad2a92273983a5572cc13edb1fffcee975d7/Create%20tables.sql)).
  
-## Identify the relationships between entities.
-
-[^1]: TABLE product to category : [many to one].
-[^2]: TABLE order_details to  order : [ many to one ].
-[^3]: TABLE order to customer  : [ many to one ].
-[^4]: TABLE order_details to  product :  : [ many to Many ].
-
-
+## Identify the relationships between entities.  
+  
+TABLE product to category : [many to one].  
+TABLE order_details to  order : [ many to one ].  
+TABLE order to customer  : [ many to one ].  
+TABLE order_details to  product :  : [ many to Many ].  
+  
+  
 ## Draw the ERD diagram of this sample schema
 ![ERD](https://github.com/mahmoudelhussain/session_3/blob/a8ee74a5c3ba73fe06f46c9b81070bc2c5059204/ERD.png)
 
