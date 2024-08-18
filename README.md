@@ -4,6 +4,8 @@
  find the ([Create tables.sql](https://github.com/mahmoudelhussain/session_3/blob/ba1dad2a92273983a5572cc13edb1fffcee975d7/Create%20tables.sql)).
  
 ## Identify the relationships between entities
+![ERD](https://github.com/mahmoudelhussain/session_3/blob/a8ee74a5c3ba73fe06f46c9b81070bc2c5059204/ERD.png)
+
 
 ## Draw the ERD diagram of this sample schema
 
