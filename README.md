@@ -1,7 +1,8 @@
 # Task
 
 ## Create the DB schema script with the following entities
- This site was built using [script](https://pages.github.com/).
+ [script]([https://pages.github.com/](https://github.com/mahmoudelhussain/session_3/blob/main/Create%20tables.sql)).
+ 
 ## Identify the relationships between entities
 
 ## Draw the ERD diagram of this sample schema
