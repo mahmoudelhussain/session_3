@@ -1,7 +1,7 @@
 # Task
 
 ## Create the DB schema script with the following entities
- find the [script](Create tables.sql).
+ find the ([Create tables.sql](https://github.com/mahmoudelhussain/session_3/blob/ba1dad2a92273983a5572cc13edb1fffcee975d7/Create%20tables.sql)).
  
 ## Identify the relationships between entities
 
