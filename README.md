@@ -12,7 +12,7 @@ TABLE order_details to  product :  : [ many to Many ].
   
   
 ## Draw the ERD diagram of this sample schema
-![ERD](https://github.com/mahmoudelhussain/session_3/blob/a8ee74a5c3ba73fe06f46c9b81070bc2c5059204/ERD.png)
+![ERD](https://github.com/mahmoudelhussain/session_3/blob/1e438c8e52f4433a5d995f156742f4874a206259/ERD%202.png)
   
 ## Write an SQL query to generate a daily report of the total revenue for a specific date.  
 Select sum(total_amount)  
