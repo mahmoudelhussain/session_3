@@ -38,5 +38,5 @@ and month( o.order_date ) = month(current_date()) -1
 group by CONCAT(c.first_name,' ', c.LAST_NAME) ;  
   
 ## How we can apply a denormalization mechanism on customer and order entities    
-  
+  ![order and customer in one table](https://github.com/mahmoudelhussain/session_3/blob/4c7ff7453b400f7c83b50f159c5402be0d52427a/Screenshot%202024-08-20%20002657.png)  
   
