@@ -19,7 +19,14 @@ Select sum(total_amount)
 From order  
 Where order_date = '2024-08-01';  
   
-## Write an SQL query to generate a monthly report of the top-selling products in a given month.
+## Write an SQL query to generate a monthly report of the top-selling products in a given month.  
+  
+  select od.order_detail_id, od.order_id , od.product_id , p.name , quantity , unit_price , total_amount
+  from order_details od
+  join product p on od.product_id = p.product_id
+  join java_mentorship.order o on o.order_id = od.order_id
+  where month(o.order_date ) = 8
+  order by quantity desc;
   
 ## Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month. Include customer names and their total order amounts. [Complex query].  
   
