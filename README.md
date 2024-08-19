@@ -21,9 +21,7 @@ Where order_date = '2024-08-01';
   
 ## Write an SQL query to generate a monthly report of the top-selling products in a given month.
   
-## Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month.
-Include customer names and their total order amounts. [Complex query].
-  
+## Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month. Include customer names and their total order amounts. [Complex query].  
   
 ## How we can apply a denormalization mechanism on customer and order entities  
   
