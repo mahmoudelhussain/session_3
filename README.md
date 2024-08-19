@@ -29,6 +29,14 @@ where month(o.order_date ) = 8
 order by quantity desc;  
     
 ## Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month. Include customer names and their total order amounts. [Complex query].  
+
+select CONCAT(c.first_name,' ', c.LAST_NAME) as Customer_name , sum(o.total_amount) as 'total order amounts'  
+from java_mentorship.customer c  
+join java_mentorship.order o on c.customer_id = o.customer_id   
+where o.total_amount > 500   
+and month( o.order_date ) = month(current_date()) -1  
+group by CONCAT(c.first_name,' ', c.LAST_NAME) ;  
   
-## How we can apply a denormalization mechanism on customer and order entities  
+## How we can apply a denormalization mechanism on customer and order entities    
+  
   
